@@ -1,4 +1,4 @@
-# The DI Package [![Build Status](https://travis-ci.org/yaapi/packages/di.png?branch=master)](https://travis-ci.org/yaapi/packages/di)
+# The DI Package [![Build Status](https://travis-ci.org/yaapi/di.png?branch=master)](https://travis-ci.org/yaapi/di)
 
 The Dependency Injection package for YaAPI provides a simple IoC Container for your application.
 Dependency Injection allows you the developer to control the construction and lifecycle of your objects,
