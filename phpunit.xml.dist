@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false">
+    <testsuites>
+        <testsuite name="YaAPI DI Test Suite">
+            <directory suffix="Test.php" phpVersion="5.4.3" phpVersionOperator=">=">./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

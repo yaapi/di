@@ -1,0 +1,29 @@
+{
+    "name": "yaapi/di",
+    "type": "library",
+    "description": "YaAPI DI Package",
+    "keywords": ["yaapi", "package", "dependency injection", "di", "ioc", "container"],
+    "homepage": "https://github.com/yaapi/packages/di",
+    "license": "LGPL-2.1+",
+    "require": {
+        "php": ">=5.4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaapi\\DI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yaapi\\DI\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
