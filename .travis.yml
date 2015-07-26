@@ -14,6 +14,8 @@ matrix:
 
 before_script:
   - composer self-update
-  - composer install --prefer-source --no-progress --dev
+  - composer install --prefer-source --no-progress --no-interaction
 
-script: phpunit
+script:
+  - ./vendor/bin/phpunit
+  - ./vendor/bin/phpcs -p --extensions=php --standard=vendor/yaapi/coding-standards/YaAPI/ruleset.xml */

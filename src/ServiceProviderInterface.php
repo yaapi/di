@@ -16,15 +16,14 @@ namespace Yaapi\DI;
  */
 interface ServiceProviderInterface
 {
-	/**
-	 * Registers the service provider with a DI container.
-	 *
-	 * @param   ContainerInterface  $container  The DI container.
-	 *
-	 * @return  void
-	 *
-	 * @since   1.0
-	 */
-	//7/public function register(ContainerInterface $container): void;
-	public function register(ContainerInterface $container);
+    /**
+     * Registers the service provider with a DI container.
+     *
+     * @param   ContainerInterface  $container  The DI container.
+     *
+     * @return  void
+     *
+     * @since   1.0
+     */
+    public function register(ContainerInterface $container);
 }

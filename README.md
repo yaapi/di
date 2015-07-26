@@ -1,4 +1,4 @@
-# The DI Package [![Build Status](https://travis-ci.org/yaapi/di.png?branch=master)](https://travis-ci.org/yaapi/di)
+# DI Package [![Build Status](https://travis-ci.org/yaapi/di.png?branch=master)](https://travis-ci.org/yaapi/di)
 
 [![Latest Stable Version](https://poser.pugx.org/yaapi/di/v/stable)](https://packagist.org/packages/yaapi/di)
 [![Latest Unstable Version](https://poser.pugx.org/yaapi/di/v/unstable)](https://packagist.org/packages/yaapi/di)
@@ -15,12 +15,12 @@ An Inversion of Control (IoC) Container helps you to manage these dependencies i
 
 ## Installation via Composer
 
-Add `"yaapi/di": "^1"` to the require block in your composer.json and then run `composer install`.
+Add `"yaapi/di": "^1.0.1"` to the require block in your composer.json.
 
 ```json
 {
 	"require": {
-		"yaapi/di": "^1"
+		"yaapi/di": "^1.0.1"
 	}
 }
 ```
@@ -28,5 +28,5 @@ Add `"yaapi/di": "^1"` to the require block in your composer.json and then run `
 Alternatively, you can simply run the following from the command line:
 
 ```sh
-composer require yaapi/di "^1"
+composer require yaapi/di:^1.0.1
 ```
